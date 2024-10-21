@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: red;
+    height: 100vh;
+    padding-top: 40px;
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    transition-duration: .2s;
+}
+a:hover{
+    color: blueviolet;
+}
+ul{
+    display: flex;
+    gap: 42px;
+}
+.co{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.leftside{
+    max-width: 50%;
+    padding-left: 230px;
+    padding-top: 250px;
+}
+.rightside {
+    padding: 200px;
+}
+h1{
+    text-transform: capitalize;
+    font-size: 42px;
+    color: #fff;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
+}
+p{
+    margin-top: 18px;
+    color: #fff;
+}
+.cola{
+    width: 150px;
+    height: 350px;
+}
+button{
+    background-color: yellow;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+    border-radius: 50%;
+    text-shadow: 10px 5px 5px rgba(0, 0, 0, 0.541);
+    margin-left: 200px;
+    margin-top: -250px;
+    font-size: 24px;
+}
+.image{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    gap: 20px;
+    line-height: 20px;
+}
+.d{
+    background-color: #ffffff;
+    width: 400px;
+    height: 300px;
+    padding: 0 10px;
+}
+.v{
+    background-color: #ffffff;
+    width: 400px;
+    height: 300px;
+    padding: 0 10px;
+}
+
+.a{
+    background-color: #ffffff;
+    width: 400px;
+    height: 300px;
+    padding: 0 10px;
+}
+.h1::before{
+    content: "";
+    position: absolute;
+    top:35px;
+    left: 25px;
+    width: 90PX;
+    height: 2px;
+    border-radius: 10px;
+    background-color: red;
+
+}
